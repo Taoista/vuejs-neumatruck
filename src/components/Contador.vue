@@ -1,5 +1,5 @@
 <template>
-
+    <strong>Ejemplo con VUE</strong><br>
     <p>{{ contador }}</p>
   
     <button @click="incrementar">incrementar</button>
