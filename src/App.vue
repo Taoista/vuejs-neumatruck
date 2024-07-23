@@ -1,14 +1,14 @@
-<script setup>
-  import Contador from './components/Contador.vue';
-  import ListaDeTareas from './components/ListaDeTareas.vue';
-</script>
-
 <template>
-
+  <MainView></MainView>
   <!-- <Contador></Contador> -->
-  <ListaDeTareas></ListaDeTareas>
+  <!-- <ListaDeTareas></ListaDeTareas> -->
 
 </template>
+
+<script setup>
+  import MainView from './views/MainView.vue'
+
+</script>
 
 <style scoped>
 

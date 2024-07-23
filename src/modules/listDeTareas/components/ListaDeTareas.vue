@@ -6,6 +6,7 @@
         <ul>
             <li v-for="(item, index) in tareas" :key="index">
                 {{ item }}
+                <button @click="borrarTarea(index)">Eliminar</button>
             </li>
         </ul>
     </div>
@@ -28,6 +29,11 @@
         // totalTareas.value = tareas.value.lenght;
         totalTareas.value = tareas.value.length;
         // console.log(tareas.value.length)
+    }
+
+
+    const borrarTarea = (index) =>{
+        tareas.value.splice(index, 1);
     }
 
 
