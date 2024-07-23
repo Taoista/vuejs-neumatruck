@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Contador from '../components/Contador.vue';
-import ListaDeTareas from '../components/ListaDeTareas.vue';
+import Contador from '../modules/contador/components/Contador.vue';
+import ListaDeTareas from '../modules/listaDeTareas/components/ListaDeTareas.vue';
 
 
 const router = createRouter({
